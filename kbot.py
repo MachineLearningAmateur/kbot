@@ -175,7 +175,7 @@ def choose(choices): #need a better method of choosing card; implement computer 
     return -1
 
 user_input = input("How many cards do you want script to grab (10 mins * x cards): ")
-if (user_input.isdigit()):
+if (not user_input.isdigit()):
     print('Input is invalid so a random number will be generated between 60-65 cards.')
     num = random.randint(60, 65)
 else:
