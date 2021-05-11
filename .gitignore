@@ -1,0 +1,10 @@
+__pycache__
+.venv
+.vscode
+auth1.py
+fishbot.py
+gameplan.txt
+karuta.bat
+note.txt
+revampedBot.py
+testwebsocket.py
