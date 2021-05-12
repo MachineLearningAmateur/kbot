@@ -182,7 +182,8 @@ else:
     num = user_input
 
 counter = 0
-while (counter != num): 
+print(f"Bot will grab {num} card(s).")
+while (counter <= int(num)): 
     counter += 1
     checkCD()
     print(f'Iteration #{counter}')
